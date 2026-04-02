@@ -1,0 +1,58 @@
+rice:
+  itemname: <white>米 Mǐ
+  material: WHEAT
+  lore:
+  - <gray>Raw rice grains.
+  Pack:
+    generate_model: false
+    model: dynasty/item/rice
+
+cooked_rice:
+  itemname: <white>熟饭 Shú Fàn
+  material: MUSHROOM_STEW
+  lore:
+  - <gray>A warm bowl of cooked rice.
+  Pack:
+    generate_model: false
+    model: dynasty/item/cooked_rice
+  Components:
+    food:
+      nutrition: 6
+      saturation: 7.2
+
+tea_leaves:
+  itemname: <dark_green>茶叶 Chá Yè
+  material: KELP
+  lore:
+  - <gray>Fresh tea leaves.
+  Pack:
+    generate_model: false
+    model: dynasty/item/tea_leaves
+
+tea:
+  itemname: <green>茶 Chá
+  material: POTION
+  lore:
+  - <gray>A cup of brewed tea.
+  - <dark_gray>Restores the spirit.
+  Pack:
+    generate_model: false
+    model: dynasty/item/tea
+  Components:
+    food:
+      nutrition: 2
+      saturation: 4.0
+
+rice_wine:
+  itemname: <yellow>米酒 Mǐ Jiǔ
+  material: HONEY_BOTTLE
+  lore:
+  - <gray>Fermented rice wine.
+  - <dark_gray>Warms the body and dulls pain.
+  Pack:
+    generate_model: false
+    model: dynasty/item/rice_wine
+  Components:
+    food:
+      nutrition: 4
+      saturation: 6.0

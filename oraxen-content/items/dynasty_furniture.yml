@@ -1,0 +1,27 @@
+silk_loom:
+  itemname: <white>织机 Zhī Jī
+  material: PAPER
+  lore:
+  - <gray>A wooden silk loom.
+  - <dark_gray>The heartbeat of the textile trade.
+  Pack:
+    generate_model: false
+    model: dynasty/block/silk_loom
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 1.0
+      display_entity_properties:
+        display_transform: FIXED
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: silk_loom
+          probability: 1.0

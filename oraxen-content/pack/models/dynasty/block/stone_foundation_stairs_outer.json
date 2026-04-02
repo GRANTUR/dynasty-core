@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dynasty/block/stone_foundation",
+    "top": "dynasty/block/stone_foundation",
+    "side": "dynasty/block/stone_foundation"
+  }
+}

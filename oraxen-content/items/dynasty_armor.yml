@@ -1,0 +1,81 @@
+lamellar_helmet:
+  itemname: <blue>札甲盔 Zhá Jiǎ Kuī
+  material: IRON_HELMET
+  lore:
+  - <gray>A lamellar armor helmet.
+  - <dark_gray>Overlapping plates of hardened leather.
+  Pack:
+    generate_model: false
+    model: dynasty/item/lamellar_helmet
+  Components:
+    durability: 300
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 3
+    operation: 0
+    slot: HEAD
+  - attribute: ARMOR_TOUGHNESS
+    amount: 1
+    operation: 0
+    slot: HEAD
+
+lamellar_chestplate:
+  itemname: <blue>札甲 Zhá Jiǎ
+  material: IRON_CHESTPLATE
+  lore:
+  - <gray>A lamellar chestplate.
+  - <dark_gray>Worn by soldiers for centuries.
+  Pack:
+    generate_model: false
+    model: dynasty/item/lamellar_chestplate
+  Components:
+    durability: 480
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 7
+    operation: 0
+    slot: CHEST
+  - attribute: ARMOR_TOUGHNESS
+    amount: 1
+    operation: 0
+    slot: CHEST
+
+lamellar_leggings:
+  itemname: <blue>札甲裤 Zhá Jiǎ Kù
+  material: IRON_LEGGINGS
+  lore:
+  - <gray>Lamellar leg guards.
+  Pack:
+    generate_model: false
+    model: dynasty/item/lamellar_leggings
+  Components:
+    durability: 420
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 5
+    operation: 0
+    slot: LEGS
+  - attribute: ARMOR_TOUGHNESS
+    amount: 1
+    operation: 0
+    slot: LEGS
+
+lamellar_boots:
+  itemname: <blue>札甲靴 Zhá Jiǎ Xuē
+  material: IRON_BOOTS
+  lore:
+  - <gray>Lamellar armored boots.
+  Pack:
+    generate_model: false
+    model: dynasty/item/lamellar_boots
+  Components:
+    durability: 360
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 2
+    operation: 0
+    slot: FEET
+  - attribute: ARMOR_TOUGHNESS
+    amount: 1
+    operation: 0
+    slot: FEET

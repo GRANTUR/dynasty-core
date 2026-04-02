@@ -2,6 +2,9 @@ package com.highpalace.dynastycore;
 
 import com.highpalace.dynastycore.command.DynastyCommand;
 import com.highpalace.dynastycore.command.ZodiacCommand;
+import com.highpalace.dynastycore.economy.MoneyChanger;
+import com.highpalace.dynastycore.listener.MobDropListener;
+import com.highpalace.dynastycore.listener.VillagerTradeListener;
 import com.highpalace.dynastycore.listener.ZodiacJoinListener;
 import com.highpalace.dynastycore.listener.ZodiacPerkListener;
 import com.highpalace.dynastycore.metrics.MetricsServer;
@@ -22,19 +25,21 @@ public class DynastyCore extends JavaPlugin {
         // Core systems
         profileManager = new ProfileManager(this);
         perkListener = new ZodiacPerkListener(this, profileManager);
+        MoneyChanger moneyChanger = new MoneyChanger(this);
 
         // Register listeners
         getServer().getPluginManager().registerEvents(perkListener, this);
         getServer().getPluginManager().registerEvents(new ZodiacJoinListener(this, profileManager), this);
+        getServer().getPluginManager().registerEvents(new MobDropListener(this), this);
+        getServer().getPluginManager().registerEvents(new VillagerTradeListener(this), this);
 
         // Register commands
         boolean allowChange = getConfig().getBoolean("zodiac.allow-change", false);
-        getCommand("zodiac").setExecutor(new ZodiacCommand(profileManager, perkListener, allowChange));
         ZodiacCommand zodiacCmd = new ZodiacCommand(profileManager, perkListener, allowChange);
         getCommand("zodiac").setExecutor(zodiacCmd);
         getCommand("zodiac").setTabCompleter(zodiacCmd);
 
-        DynastyCommand dynastyCmd = new DynastyCommand(profileManager);
+        DynastyCommand dynastyCmd = new DynastyCommand(profileManager, moneyChanger);
         getCommand("dynasty").setExecutor(dynastyCmd);
         getCommand("dynasty").setTabCompleter(dynastyCmd);
 

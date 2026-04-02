@@ -11,7 +11,7 @@ commands:
     aliases: [zd]
   dynasty:
     description: DynastyCore admin commands
-    usage: /<command> [reload|reset]
+    usage: /<command> [reload|reset|moneychanger]
     aliases: [dc]
 permissions:
   dynastycore.zodiac.choose:

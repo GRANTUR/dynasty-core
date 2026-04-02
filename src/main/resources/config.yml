@@ -19,6 +19,18 @@ zodiac:
     dog-regen-radius: 8
     pig-ore-double-chance: 0.15
 
+# Economy System
+economy:
+  # Chance for hostile mobs to drop copper coins on death (0.0 - 1.0)
+  mob-drop-chance: 0.35
+
+  # Min/max copper coins dropped per mob kill
+  mob-drop-min: 1
+  mob-drop-max: 3
+
+  # Chance for villagers to accept copper coins in trades (0.0 - 1.0)
+  villager-coin-trade-chance: 0.20
+
 # Metrics
 metrics:
   enabled: true

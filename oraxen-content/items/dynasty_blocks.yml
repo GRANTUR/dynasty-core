@@ -1,0 +1,114 @@
+dougong_bracket:
+  itemname: <gold>斗拱 Dǒugǒng
+  material: PAPER
+  lore:
+  - <gray>Interlocking bracket system.
+  - <dark_gray>The crown of Chinese architecture.
+  Pack:
+    generate_model: false
+    model: dynasty/block/dougong_bracket
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.wood.break
+        place_sound: block.wood.place
+      custom_variation: 10
+      model: dynasty/block/dougong_bracket
+      hardness: 2
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: dougong_bracket
+          probability: 1.0
+
+stone_foundation:
+  itemname: <gray>石基 Shí Jī
+  material: PAPER
+  lore:
+  - <gray>A solid stone foundation block.
+  - <dark_gray>The base upon which all is built.
+  Pack:
+    generate_model: false
+    model: dynasty/block/stone_foundation
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 11
+      model: dynasty/block/stone_foundation
+      hardness: 3
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: stone_foundation
+          probability: 1.0
+
+plastered_wall:
+  itemname: <white>粉墙 Fěn Qiáng
+  material: PAPER
+  lore:
+  - <gray>A smooth plastered wall.
+  - <dark_gray>Clean and elegant.
+  Pack:
+    generate_model: false
+    model: dynasty/block/plastered_wall
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 12
+      model: dynasty/block/plastered_wall
+      hardness: 1.5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: plastered_wall
+          probability: 1.0
+
+paper_screen:
+  itemname: <white>纸屏 Zhǐ Píng
+  material: PAPER
+  lore:
+  - <gray>A translucent paper screen.
+  - <dark_gray>Light filters through softly.
+  Pack:
+    generate_model: false
+    model: dynasty/block/paper_screen
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.wool.break
+        place_sound: block.wool.place
+      custom_variation: 13
+      model: dynasty/block/paper_screen
+      hardness: 0.5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: paper_screen
+          probability: 1.0
+
+ancestral_shrine:
+  itemname: <light_purple>祠堂 Cí Táng
+  material: PAPER
+  lore:
+  - <gray>A stone ancestral shrine.
+  - <dark_gray>Where the family honors its ancestors.
+  Pack:
+    generate_model: false
+    model: dynasty/block/ancestral_shrine
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 14
+      model: dynasty/block/ancestral_shrine
+      hardness: 4
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: ancestral_shrine
+          probability: 1.0

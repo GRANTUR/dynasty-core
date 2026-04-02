@@ -1,0 +1,20 @@
+ancestor_tablet:
+  itemname: <light_purple>祖牌 Zǔ Pái
+  material: BRICK
+  lore:
+  - <gray>An ancestral memorial tablet.
+  - <dark_gray>The ancestors are watching.
+  Pack:
+    generate_model: false
+    model: dynasty/item/ancestor_tablet
+
+stone_tablet:
+  itemname: <dark_gray>石碑 Shí Bēi
+  material: STONE
+  lore:
+  - <gray>A weathered stone tablet.
+  - <dark_gray>Bearing the weight of history.
+  Pack:
+    generate_model: true
+    textures:
+    - dynasty/item/tablet

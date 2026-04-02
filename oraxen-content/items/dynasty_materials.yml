@@ -1,0 +1,37 @@
+jade:
+  itemname: <green>玉 Yù
+  material: EMERALD
+  lore:
+  - <gray>A piece of fine jade.
+  - <dark_gray>Prized above gold.
+  Pack:
+    generate_model: false
+    model: dynasty/item/jade
+
+silk:
+  itemname: <white>丝 Sī
+  material: PAPER
+  lore:
+  - <gray>A bolt of fine silk.
+  Pack:
+    generate_model: false
+    model: dynasty/item/silk
+
+porcelain:
+  itemname: <aqua>瓷 Cí
+  material: QUARTZ
+  lore:
+  - <gray>A piece of polished porcelain.
+  Pack:
+    generate_model: false
+    model: dynasty/item/porcelain
+
+ink_stick:
+  itemname: <dark_gray>墨条 Mò Tiáo
+  material: BLAZE_ROD
+  lore:
+  - <gray>A stick of solid ink.
+  - <dark_gray>Ground with water for calligraphy.
+  Pack:
+    generate_model: false
+    model: dynasty/item/ink_stick

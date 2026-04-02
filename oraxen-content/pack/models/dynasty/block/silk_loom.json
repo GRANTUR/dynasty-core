@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "dynasty/block/silk_loom_top",
+    "bottom": "dynasty/block/silk_loom_top",
+    "side": "dynasty/block/silk_loom_side"
+  }
+}

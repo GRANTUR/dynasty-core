@@ -1,0 +1,39 @@
+tongqian:
+  itemname: <gold>铜钱 Tóngqián
+  material: COPPER_INGOT
+  lore:
+  - <gray>A copper coin with a square hole.
+  - <dark_gray>The common currency of the realm.
+  Pack:
+    generate_model: true
+    textures:
+    - dynasty/item/tongqian
+
+yuanbao:
+  itemname: <white>银元宝 Yuánbǎo
+  material: IRON_NUGGET
+  lore:
+  - <gray>A silver sycee ingot.
+  - <dark_gray>Worth a stack of copper coins.
+  Pack:
+    generate_model: true
+    textures:
+    - dynasty/item/yuanbao
+
+copper_coin_legacy:
+  itemname: <gold>铜钱 Tóngqián
+  material: COPPER_INGOT
+  lore:
+  - <gray>A copper coin. (Classic style)
+  Pack:
+    generate_model: false
+    model: dynasty/item/copper_coin
+
+silver_ingot_dynasty:
+  itemname: <white>银锭 Yín Dìng
+  material: IRON_NUGGET
+  lore:
+  - <gray>A bar of silver.
+  Pack:
+    generate_model: false
+    model: dynasty/item/silver_ingot

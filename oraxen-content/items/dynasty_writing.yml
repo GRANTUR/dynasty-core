@@ -1,0 +1,18 @@
+ink_brush:
+  itemname: <gray>毛笔 Máobǐ
+  material: FEATHER
+  lore:
+  - <gray>A fine calligraphy brush.
+  - <dark_gray>One of the Four Treasures of the Study.
+  Pack:
+    generate_model: false
+    model: dynasty/item/ink_brush
+
+paper_scroll:
+  itemname: <white>卷轴 Juǎnzhóu
+  material: PAPER
+  lore:
+  - <gray>A rolled paper scroll with a wax seal.
+  Pack:
+    generate_model: false
+    model: dynasty/item/paper_scroll
