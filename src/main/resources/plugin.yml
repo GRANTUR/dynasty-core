@@ -1,0 +1,28 @@
+name: DynastyCore
+version: ${project.version}
+main: com.highpalace.dynastycore.DynastyCore
+api-version: '1.21'
+description: Chinese civilization engine for Minecraft
+author: darkvoid15
+commands:
+  zodiac:
+    description: Zodiac system commands
+    usage: /<command> [choose|info|status]
+    aliases: [zd]
+  dynasty:
+    description: DynastyCore admin commands
+    usage: /<command> [reload|reset]
+    aliases: [dc]
+permissions:
+  dynastycore.zodiac.choose:
+    description: Choose a zodiac sign
+    default: true
+  dynastycore.zodiac.info:
+    description: View zodiac information
+    default: true
+  dynastycore.admin.reload:
+    description: Reload DynastyCore configuration
+    default: op
+  dynastycore.admin.reset:
+    description: Reset a player's profile
+    default: op

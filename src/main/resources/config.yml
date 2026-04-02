@@ -1,0 +1,25 @@
+# DynastyCore Configuration
+
+# Zodiac System
+zodiac:
+  # Prompt players to choose a zodiac on first join
+  prompt-on-join: true
+
+  # Allow players to change their zodiac (false = permanent choice)
+  allow-change: false
+
+  # Perk-specific tuning
+  perks:
+    rat-xp-bonus: 0.25
+    tiger-bonus-damage: 2.0
+    rabbit-dodge-chance: 0.10
+    snake-potion-multiplier: 1.5
+    horse-speed-amplifier: 1
+    monkey-food-save-chance: 0.30
+    dog-regen-radius: 8
+    pig-ore-double-chance: 0.15
+
+# Metrics
+metrics:
+  enabled: true
+  port: 9230
