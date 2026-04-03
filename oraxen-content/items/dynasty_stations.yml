@@ -1,0 +1,63 @@
+calligraphy_table:
+  itemname: <gold>书案 Shū Àn
+  material: PAPER
+  lore:
+  - <gray>A traditional writing desk.
+  - <dark_gray>Where ink meets paper and words become eternal.
+  Pack:
+    generate_model: false
+    model: dynasty/furniture/calligraphy_table
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 0.5
+      display_entity_properties:
+        display_transform: NONE
+        scale:
+          x: 1.0
+          y: 1.0
+          z: 1.0
+      barrier: true
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: calligraphy_table
+          probability: 1.0
+
+scroll_hongtu:
+  itemname: <gold>大展鴻圖 Dà Zhǎn Hóng Tú
+  material: PAPER
+  lore:
+  - <gray>A calligraphy scroll.
+  - <dark_gray>Grand ambitions unfold like a map.
+  Pack:
+    generate_model: false
+    model: dynasty/furniture/scroll_hongtu
+  Mechanics:
+    furniture:
+      type: DISPLAY_ENTITY
+      hitbox:
+        width: 1.0
+        height: 0.2
+      display_entity_properties:
+        display_transform: NONE
+        scale:
+          x: 1.0
+          y: 1.0
+          z: 1.0
+      barrier: false
+      limited_placing:
+        roof: false
+        floor: true
+        wall: false
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: scroll_hongtu
+          probability: 1.0
