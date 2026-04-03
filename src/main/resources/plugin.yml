@@ -4,6 +4,8 @@ main: com.highpalace.dynastycore.DynastyCore
 api-version: '1.21'
 description: Chinese civilization engine for Minecraft
 author: darkvoid15
+softdepend:
+  - Oraxen
 commands:
   zodiac:
     description: Zodiac system commands

@@ -32,6 +32,13 @@
             <version>1.21.11-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>io.th0rgal</groupId>
+            <artifactId>oraxen</artifactId>
+            <version>1.211.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../oraxen/build/libs/oraxen-1.211.0.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>

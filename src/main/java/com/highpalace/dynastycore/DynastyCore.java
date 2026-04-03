@@ -33,6 +33,13 @@ public class DynastyCore extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MobDropListener(this), this);
         getServer().getPluginManager().registerEvents(new VillagerTradeListener(this), this);
 
+        // Oraxen integration (optional — only if Oraxen is present)
+        if (getServer().getPluginManager().getPlugin("Oraxen") != null) {
+            getServer().getPluginManager().registerEvents(
+                    new com.highpalace.dynastycore.listener.CalligraphyTableListener(this), this);
+            getLogger().info("Oraxen detected — calligraphy table mechanic enabled");
+        }
+
         // Register commands
         boolean allowChange = getConfig().getBoolean("zodiac.allow-change", false);
         ZodiacCommand zodiacCmd = new ZodiacCommand(profileManager, perkListener, allowChange);
